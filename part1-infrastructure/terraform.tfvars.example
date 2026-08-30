@@ -1,0 +1,16 @@
+project_id  = "your-gcp-project-id"
+region      = "asia-southeast1"
+environment = "dev"
+
+# Optional custom domain. Requires CLOUDFLARE_API_TOKEN.
+# cloudflare_zone_id = ""
+# custom_domain      = ""
+
+# Production overrides:
+# environment          = "prod"
+# db_tier              = "db-custom-2-7680"
+# db_availability_type = "REGIONAL"
+# deletion_protection  = true
+# min_instances        = 1
+# allow_public_access  = false
+# invoker_members      = ["group:analytics@example.com"]
